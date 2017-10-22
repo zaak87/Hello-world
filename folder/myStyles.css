@@ -45,6 +45,7 @@ input[type="number"] {
          text-align: center;
          display: block;
          margin : 0 auto;
+         width: 80px;
          z-index:2;
     }
     /*******************************************************************************************
@@ -52,10 +53,10 @@ input[type="number"] {
     /*******************************************************************************************/
     /* The Modal (background) */
 .modal {
-    display: block;; /* Hidden by default */
+    display: block; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 2; /* Sit on top */
-    padding-top: 200px; /* Location of the box */
+    padding-top: 180px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -70,10 +71,10 @@ input[type="number"] {
 .modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
+    /*padding: 20px;*/
     border: 1px solid #888;
-    width: 60%;
-    height: 40%;
+    width: 250px;
+    height: 150px;
 }
 
 /* The Close Button */
