@@ -19,9 +19,12 @@ for(var i=0; i<inputs.length; i++){
     }
 }
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
+/*btn.onclick = function() {
     modal.style.display = "block";
-}
+}*/
+btn.addEventListener("click",function(){
+    modal.style.display = "block";
+});
 snd.onclick = function() {
     
 }
