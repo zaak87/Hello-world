@@ -1,12 +1,17 @@
 
 #square {
+    position: relative;
     margin: auto;
     width: 200px;
     height: 320px;
     background: Skyblue;
     z-index: 0;
 }
-#shadowy {
+.divition {
+    height: 10px;
+    width: 7;
+}
+.leftShadow {
     position: absolute;
     background: rgba(50, 106, 131, 0.301);
     height: 24px;
@@ -15,7 +20,7 @@
     right: 5px;
     top: 6px;
 }
-#shadowie {
+.rightShadow {
     position: absolute;
     background: rgba(50, 106, 131, 0.301);
     height: 24px;
@@ -27,10 +32,13 @@
 div.row {
     position:relative;
 }
-#fila {
+div.col-xs-6 {
     position: absolute;
     right:0;
     top: 35px;
+}
+select {
+    text-align-last: center; 
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -46,8 +54,14 @@ input[type="number"] {
          display: block;
          margin : 0 auto;
          width: 80px;
-         z-index:2;
+         z-index:1;
     }
+.buttonSet {
+    position:absolute;
+    text-align:center;
+    width:100%;
+    bottom:-10px;
+}
     /*******************************************************************************************
     /***********************************************MODAL***************************************
     /*******************************************************************************************/
