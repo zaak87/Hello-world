@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="myStyles.css">
+		
+    </head>
+    
+    <body>
+        <h3 style="border: 2px solid Skyblue; text-align:center;"> Envío de equipos </h3>
+        <h6 id="destino" style="text-align:center;">ENVIAR A: <b style="color:mediumorchid">SOLUCEL CENTRAL</b></h6>
+        
+        <div id="square" style="position:relative;">
+            <p style="position:absolute;top:5px;text-align:center;color:white;width:100%;">Indicar ODS's</p>
+            <form>
+                    <div id="fila" class="col-xs-6" style="left:-20px">
+                            <div class="row"><div id="shadowy"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowy"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowy"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowy"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowy"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowy"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowy"></div><input type="number" min="7500000" max="7600000"/></div>
+                    </div>
+                    <div id="fila" class="col-xs-6" style="right:-20px">
+                            <div class="row"><div id="shadowie"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowie"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowie"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowie"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowie"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowie"></div><input type="number" min="7500000" max="7600000"/></div>
+                            <div style="height:10px; width:7"> </div>
+                            <div class="row"><div id="shadowie"></div><input type="number" min="7500000" max="7600000"/></div>
+                    </div>
+                    <div style="width:100%; text-align:center; position:absolute; Bottom:-10px"><button id="myBtn" style="border:solid;position:relative; margin:auto;">Destino</button></div>
+                    <button id="send" style="position:absolute; Bottom:-10px; left:-10px; margin:auto;">Enviar</button>
+                    
+                    <button id="deleting" style="position:absolute; Bottom:-10px; right:-10px; margin:auto; ">Borrar</button>
+            </form>
+        </div>
+
+            <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <br><br>
+                <p><b>Indique el destino:</b></p>
+                <Select>
+                    <option value="Uno">One</option>
+                    <option value="dos">two</option>
+                    <option value="tres">three</option>
+                </Select>
+                <br>
+                <button id="dest">Aceptar</button>
+            </div>
+        </div>
+
+        <script src="scripts.js"></script>
+        
+    </body>
+
+</html>
