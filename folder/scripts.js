@@ -15,7 +15,7 @@ btn.onclick = function() {
     modal.style.display = "block";
 }
 snd.onclick = function() {
-    document.getElementById("destino").innerHTML = "YEH";
+    
 }
 dlt.onclick = function() {
     
