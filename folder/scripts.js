@@ -10,6 +10,14 @@ var dlt = document.getElementById("deleting");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+var inputs = document.getElementsByTagName("input");
+for(var i=0; i<inputs.length; i++){
+    inputs[i].oninput = function(){
+        if (this.value.length > this.maxLength){
+            this.value = this.value.slice(0, this.maxLength);
+        }
+    }
+}
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
     modal.style.display = "block";
