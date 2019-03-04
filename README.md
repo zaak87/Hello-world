@@ -1,3 +1,2 @@
 # Hello-world
-Cool, i just updated this shit xD
-this is nice
+finally!, this shit sucks ugh.
