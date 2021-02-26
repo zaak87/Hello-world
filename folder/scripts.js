@@ -1,6 +1,6 @@
 // Get the modal this is a new branch heheheh
 var modal = document.getElementById('myModal');
-
+alert(4);
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
 
@@ -11,34 +11,30 @@ var dlt = document.getElementById("deleting");
 var span = document.getElementsByClassName("close")[0];
 
 var inputs = document.getElementsByTagName("input");
-for(var i=0; i<inputs.length; i++){
-    inputs[i].oninput = function(){
-        if (this.value.length > this.maxLength){
-            this.value = this.value.slice(0, this.maxLength);
-        }
+for (var i = 0; i < inputs.length; i++) {
+  inputs[i].oninput = function() {
+    if (this.value.length > this.maxLength) {
+      this.value = this.value.slice(0, this.maxLength);
     }
+  }
 }
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 /*btn.onclick = function() {
     modal.style.display = "block";
 }*/
-btn.addEventListener("click",function(){
-    modal.style.display = "block";
+btn.addEventListener("click", function() {
+  modal.style.display = "block";
 });
-snd.onclick = function() {
-    
-}
-dlt.onclick = function() {
-    
-}
+snd.onclick = function() {}
+dlt.onclick = function() {}
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-    modal.style.display = "none";
+  modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
